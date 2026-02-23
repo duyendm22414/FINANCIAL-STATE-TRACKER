@@ -1,0 +1,121 @@
+﻿Ngành ICB - cấp 1,Năm,Nhóm chỉ số,Chỉ số đại diện (theo PCA)
+Công nghiệp,2020,Efficiency,Asset_Turnover
+Công nghiệp,2020,Leverage,Debt_Equity
+Công nghiệp,2020,Liquidity,Current_Ratio
+Công nghiệp,2020,Profitability,ROA
+Công nghiệp,2021,Efficiency,Asset_Turnover
+Công nghiệp,2021,Leverage,Debt_Equity
+Công nghiệp,2021,Liquidity,Current_Ratio
+Công nghiệp,2021,Profitability,ROA
+Công nghiệp,2022,Efficiency,Asset_Turnover
+Công nghiệp,2022,Leverage,Debt_Equity
+Công nghiệp,2022,Liquidity,Quick_Ratio
+Công nghiệp,2022,Profitability,ROA
+Công nghiệp,2023,Efficiency,Asset_Turnover
+Công nghiệp,2023,Leverage,Net_Leverage
+Công nghiệp,2023,Liquidity,Quick_Ratio
+Công nghiệp,2023,Profitability,ROA
+Công nghiệp,2024,Efficiency,Asset_Turnover
+Công nghiệp,2024,Leverage,Debt_Equity
+Công nghiệp,2024,Liquidity,Quick_Ratio
+Công nghiệp,2024,Profitability,ROE
+Dược phẩm và Y tế,2020,Efficiency,Asset_Turnover
+Dược phẩm và Y tế,2020,Leverage,Debt_Equity
+Dược phẩm và Y tế,2020,Liquidity,Quick_Ratio
+Dược phẩm và Y tế,2020,Profitability,ROE
+Dược phẩm và Y tế,2021,Efficiency,Asset_Turnover
+Dược phẩm và Y tế,2021,Leverage,Net_Leverage
+Dược phẩm và Y tế,2021,Liquidity,Current_Ratio
+Dược phẩm và Y tế,2021,Profitability,ROE
+Dược phẩm và Y tế,2022,Efficiency,Asset_Turnover
+Dược phẩm và Y tế,2022,Leverage,Net_Leverage
+Dược phẩm và Y tế,2022,Liquidity,Quick_Ratio
+Dược phẩm và Y tế,2022,Profitability,ROA
+Dược phẩm và Y tế,2023,Efficiency,Fixed_Asset_Turnover
+Dược phẩm và Y tế,2023,Leverage,Debt_Equity
+Dược phẩm và Y tế,2023,Liquidity,Current_Ratio
+Dược phẩm và Y tế,2023,Profitability,ROA
+Dược phẩm và Y tế,2024,Efficiency,Asset_Turnover
+Dược phẩm và Y tế,2024,Leverage,Debt_Equity
+Dược phẩm và Y tế,2024,Liquidity,Current_Ratio
+Dược phẩm và Y tế,2024,Profitability,ROA
+Dịch vụ Tiêu dùng,2020,Efficiency,Fixed_Asset_Turnover
+Dịch vụ Tiêu dùng,2020,Leverage,Debt_Equity
+Dịch vụ Tiêu dùng,2020,Liquidity,Quick_Ratio
+Dịch vụ Tiêu dùng,2020,Profitability,ROA
+Dịch vụ Tiêu dùng,2021,Efficiency,Fixed_Asset_Turnover
+Dịch vụ Tiêu dùng,2021,Leverage,Debt_Equity
+Dịch vụ Tiêu dùng,2021,Liquidity,Quick_Ratio
+Dịch vụ Tiêu dùng,2021,Profitability,ROA
+Dịch vụ Tiêu dùng,2022,Efficiency,Fixed_Asset_Turnover
+Dịch vụ Tiêu dùng,2022,Leverage,Debt_Equity
+Dịch vụ Tiêu dùng,2022,Liquidity,Quick_Ratio
+Dịch vụ Tiêu dùng,2022,Profitability,ROA
+Dịch vụ Tiêu dùng,2023,Efficiency,Asset_Turnover
+Dịch vụ Tiêu dùng,2023,Leverage,Debt_Equity
+Dịch vụ Tiêu dùng,2023,Liquidity,Current_Ratio
+Dịch vụ Tiêu dùng,2023,Profitability,ROA
+Dịch vụ Tiêu dùng,2024,Efficiency,Asset_Turnover
+Dịch vụ Tiêu dùng,2024,Leverage,Net_Leverage
+Dịch vụ Tiêu dùng,2024,Liquidity,Current_Ratio
+Dịch vụ Tiêu dùng,2024,Profitability,ROS
+Hàng Tiêu dùng,2020,Efficiency,Asset_Turnover
+Hàng Tiêu dùng,2020,Leverage,Debt_Equity
+Hàng Tiêu dùng,2020,Liquidity,Current_Ratio
+Hàng Tiêu dùng,2020,Profitability,ROE
+Hàng Tiêu dùng,2021,Efficiency,Asset_Turnover
+Hàng Tiêu dùng,2021,Leverage,Debt_Equity
+Hàng Tiêu dùng,2021,Liquidity,Current_Ratio
+Hàng Tiêu dùng,2021,Profitability,ROE
+Hàng Tiêu dùng,2022,Efficiency,Asset_Turnover
+Hàng Tiêu dùng,2022,Leverage,Debt_Equity
+Hàng Tiêu dùng,2022,Liquidity,Current_Ratio
+Hàng Tiêu dùng,2022,Profitability,ROE
+Hàng Tiêu dùng,2023,Efficiency,Asset_Turnover
+Hàng Tiêu dùng,2023,Leverage,Debt_Equity
+Hàng Tiêu dùng,2023,Liquidity,Current_Ratio
+Hàng Tiêu dùng,2023,Profitability,ROA
+Hàng Tiêu dùng,2024,Efficiency,Asset_Turnover
+Hàng Tiêu dùng,2024,Leverage,Net_Leverage
+Hàng Tiêu dùng,2024,Liquidity,Current_Ratio
+Hàng Tiêu dùng,2024,Profitability,ROA
+Nguyên vật liệu,2020,Efficiency,Asset_Turnover
+Nguyên vật liệu,2020,Leverage,Debt_Equity
+Nguyên vật liệu,2020,Liquidity,Quick_Ratio
+Nguyên vật liệu,2020,Profitability,ROA
+Nguyên vật liệu,2021,Efficiency,Asset_Turnover
+Nguyên vật liệu,2021,Leverage,Net_Leverage
+Nguyên vật liệu,2021,Liquidity,Current_Ratio
+Nguyên vật liệu,2021,Profitability,ROA
+Nguyên vật liệu,2022,Efficiency,Fixed_Asset_Turnover
+Nguyên vật liệu,2022,Leverage,Net_Leverage
+Nguyên vật liệu,2022,Liquidity,Current_Ratio
+Nguyên vật liệu,2022,Profitability,ROE
+Nguyên vật liệu,2023,Efficiency,Fixed_Asset_Turnover
+Nguyên vật liệu,2023,Leverage,Net_Leverage
+Nguyên vật liệu,2023,Liquidity,Current_Ratio
+Nguyên vật liệu,2023,Profitability,ROA
+Nguyên vật liệu,2024,Efficiency,Asset_Turnover
+Nguyên vật liệu,2024,Leverage,Debt_Equity
+Nguyên vật liệu,2024,Liquidity,Current_Ratio
+Nguyên vật liệu,2024,Profitability,ROA
+Tiện ích Cộng đồng,2020,Efficiency,Fixed_Asset_Turnover
+Tiện ích Cộng đồng,2020,Leverage,Debt_Equity
+Tiện ích Cộng đồng,2020,Liquidity,Quick_Ratio
+Tiện ích Cộng đồng,2020,Profitability,ROE
+Tiện ích Cộng đồng,2021,Efficiency,Asset_Turnover
+Tiện ích Cộng đồng,2021,Leverage,Debt_Equity
+Tiện ích Cộng đồng,2021,Liquidity,Quick_Ratio
+Tiện ích Cộng đồng,2021,Profitability,ROA
+Tiện ích Cộng đồng,2022,Efficiency,Asset_Turnover
+Tiện ích Cộng đồng,2022,Leverage,Net_Leverage
+Tiện ích Cộng đồng,2022,Liquidity,Quick_Ratio
+Tiện ích Cộng đồng,2022,Profitability,ROA
+Tiện ích Cộng đồng,2023,Efficiency,Asset_Turnover
+Tiện ích Cộng đồng,2023,Leverage,Debt_Equity
+Tiện ích Cộng đồng,2023,Liquidity,Current_Ratio
+Tiện ích Cộng đồng,2023,Profitability,ROA
+Tiện ích Cộng đồng,2024,Efficiency,Asset_Turnover
+Tiện ích Cộng đồng,2024,Leverage,Net_Leverage
+Tiện ích Cộng đồng,2024,Liquidity,Quick_Ratio
+Tiện ích Cộng đồng,2024,Profitability,ROS
