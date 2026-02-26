@@ -10,7 +10,7 @@ from src.schema import (
 
 data = load_data()
 labeled = data["Nguyên tắc phân loại"]
-table6 = data["table6"]
+table6 = data["Chỉ số đại diện (PCA)"]
 
 st.title("Trạng thái tài chính doanh nghiệp")
 
