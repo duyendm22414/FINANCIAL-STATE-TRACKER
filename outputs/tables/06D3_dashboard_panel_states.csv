@@ -142,6 +142,8 @@ BRC,Cao su Bến Thành,Nguyên vật liệu,Hóa chất,Hóa chất,"Nhựa, ca
 BRC,Cao su Bến Thành,Nguyên vật liệu,Hóa chất,Hóa chất,"Nhựa, cao su & sợi",2022,At_Risk,0.25,BRC - Cao su Bến Thành
 BRC,Cao su Bến Thành,Nguyên vật liệu,Hóa chất,Hóa chất,"Nhựa, cao su & sợi",2023,At_Risk,0.25,BRC - Cao su Bến Thành
 BRC,Cao su Bến Thành,Nguyên vật liệu,Hóa chất,Hóa chất,"Nhựa, cao su & sợi",2024,Healthy,0.75,BRC - Cao su Bến Thành
+BSR,Lọc Hóa dầu Bình Sơn,Dầu khí,Dầu khí,Sản xuất Dầu khí,Sản xuất và Khai thác dầu khí,2023,Healthy,0.75,BSR - Lọc Hóa dầu Bình Sơn
+BSR,Lọc Hóa dầu Bình Sơn,Dầu khí,Dầu khí,Sản xuất Dầu khí,Sản xuất và Khai thác dầu khí,2024,Stable,0.5,BSR - Lọc Hóa dầu Bình Sơn
 BTP,Nhiệt điện Bà Rịa,Tiện ích Cộng đồng,"Điện, nước & xăng dầu khí đốt",Sản xuất & Phân phối Điện,Sản xuất & Phân phối Điện,2020,Stable,0.5,BTP - Nhiệt điện Bà Rịa
 BTP,Nhiệt điện Bà Rịa,Tiện ích Cộng đồng,"Điện, nước & xăng dầu khí đốt",Sản xuất & Phân phối Điện,Sản xuất & Phân phối Điện,2021,Stable,0.5,BTP - Nhiệt điện Bà Rịa
 BTP,Nhiệt điện Bà Rịa,Tiện ích Cộng đồng,"Điện, nước & xăng dầu khí đốt",Sản xuất & Phân phối Điện,Sản xuất & Phân phối Điện,2022,Stable,0.5,BTP - Nhiệt điện Bà Rịa
@@ -210,11 +212,11 @@ CLW,Cấp nước Chợ Lớn,Tiện ích Cộng đồng,"Điện, nước & xă
 CLW,Cấp nước Chợ Lớn,Tiện ích Cộng đồng,"Điện, nước & xăng dầu khí đốt",Nước & Khí đốt,Nước,2022,Stable,0.5,CLW - Cấp nước Chợ Lớn
 CLW,Cấp nước Chợ Lớn,Tiện ích Cộng đồng,"Điện, nước & xăng dầu khí đốt",Nước & Khí đốt,Nước,2023,Stable,0.5,CLW - Cấp nước Chợ Lớn
 CLW,Cấp nước Chợ Lớn,Tiện ích Cộng đồng,"Điện, nước & xăng dầu khí đốt",Nước & Khí đốt,Nước,2024,Stable,0.5,CLW - Cấp nước Chợ Lớn
-CMG,Tập đoàn Công nghệ CMC,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Dịch vụ Máy tính,2020,,,CMG - Tập đoàn Công nghệ CMC
-CMG,Tập đoàn Công nghệ CMC,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Dịch vụ Máy tính,2021,,,CMG - Tập đoàn Công nghệ CMC
-CMG,Tập đoàn Công nghệ CMC,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Dịch vụ Máy tính,2022,,,CMG - Tập đoàn Công nghệ CMC
-CMG,Tập đoàn Công nghệ CMC,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Dịch vụ Máy tính,2023,,,CMG - Tập đoàn Công nghệ CMC
-CMG,Tập đoàn Công nghệ CMC,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Dịch vụ Máy tính,2024,,,CMG - Tập đoàn Công nghệ CMC
+CMG,Tập đoàn Công nghệ CMC,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Dịch vụ Máy tính,2020,Healthy,0.75,CMG - Tập đoàn Công nghệ CMC
+CMG,Tập đoàn Công nghệ CMC,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Dịch vụ Máy tính,2021,Stable,0.5,CMG - Tập đoàn Công nghệ CMC
+CMG,Tập đoàn Công nghệ CMC,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Dịch vụ Máy tính,2022,At_Risk,0.25,CMG - Tập đoàn Công nghệ CMC
+CMG,Tập đoàn Công nghệ CMC,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Dịch vụ Máy tính,2023,At_Risk,0.25,CMG - Tập đoàn Công nghệ CMC
+CMG,Tập đoàn Công nghệ CMC,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Dịch vụ Máy tính,2024,Stable,0.5,CMG - Tập đoàn Công nghệ CMC
 CMV,Thương nghiệp Cà Mau,Dịch vụ Tiêu dùng,Bán lẻ,Bán lẻ,Bán lẻ phức hợp,2020,Stable,0.5,CMV - Thương nghiệp Cà Mau
 CMV,Thương nghiệp Cà Mau,Dịch vụ Tiêu dùng,Bán lẻ,Bán lẻ,Bán lẻ phức hợp,2021,Healthy,0.75,CMV - Thương nghiệp Cà Mau
 CMV,Thương nghiệp Cà Mau,Dịch vụ Tiêu dùng,Bán lẻ,Bán lẻ,Bán lẻ phức hợp,2022,At_Risk,0.25,CMV - Thương nghiệp Cà Mau
@@ -413,11 +415,11 @@ DXV,Vật liệu Xây dựng Đà Nẵng,Công nghiệp,Xây dựng và Vật li
 DXV,Vật liệu Xây dựng Đà Nẵng,Công nghiệp,Xây dựng và Vật liệu,Xây dựng và Vật liệu,Vật liệu xây dựng & Nội thất,2022,Healthy,0.75,DXV - Vật liệu Xây dựng Đà Nẵng
 DXV,Vật liệu Xây dựng Đà Nẵng,Công nghiệp,Xây dựng và Vật liệu,Xây dựng và Vật liệu,Vật liệu xây dựng & Nội thất,2023,Stable,0.5,DXV - Vật liệu Xây dựng Đà Nẵng
 DXV,Vật liệu Xây dựng Đà Nẵng,Công nghiệp,Xây dựng và Vật liệu,Xây dựng và Vật liệu,Vật liệu xây dựng & Nội thất,2024,Healthy,0.75,DXV - Vật liệu Xây dựng Đà Nẵng
-ELC,ELCOM,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2020,,,ELC - ELCOM
-ELC,ELCOM,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2021,,,ELC - ELCOM
-ELC,ELCOM,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2022,,,ELC - ELCOM
-ELC,ELCOM,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2023,,,ELC - ELCOM
-ELC,ELCOM,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2024,,,ELC - ELCOM
+ELC,ELCOM,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2020,Stable,0.5,ELC - ELCOM
+ELC,ELCOM,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2021,Stable,0.5,ELC - ELCOM
+ELC,ELCOM,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2022,Stable,0.5,ELC - ELCOM
+ELC,ELCOM,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2023,Healthy,0.75,ELC - ELCOM
+ELC,ELCOM,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2024,Healthy,0.75,ELC - ELCOM
 EVE,Everpia,Hàng Tiêu dùng,Hàng cá nhân & Gia dụng,Hàng cá nhân,Hàng May mặc,2020,Stable,0.5,EVE - Everpia
 EVE,Everpia,Hàng Tiêu dùng,Hàng cá nhân & Gia dụng,Hàng cá nhân,Hàng May mặc,2021,Stable,0.5,EVE - Everpia
 EVE,Everpia,Hàng Tiêu dùng,Hàng cá nhân & Gia dụng,Hàng cá nhân,Hàng May mặc,2022,Healthy,0.75,EVE - Everpia
@@ -445,11 +447,11 @@ FMC,Thực phẩm Sao Ta,Hàng Tiêu dùng,Thực phẩm và đồ uống,Sản 
 FMC,Thực phẩm Sao Ta,Hàng Tiêu dùng,Thực phẩm và đồ uống,Sản xuất thực phẩm,Nuôi trồng nông & hải sản,2022,Healthy,0.75,FMC - Thực phẩm Sao Ta
 FMC,Thực phẩm Sao Ta,Hàng Tiêu dùng,Thực phẩm và đồ uống,Sản xuất thực phẩm,Nuôi trồng nông & hải sản,2023,Healthy,0.75,FMC - Thực phẩm Sao Ta
 FMC,Thực phẩm Sao Ta,Hàng Tiêu dùng,Thực phẩm và đồ uống,Sản xuất thực phẩm,Nuôi trồng nông & hải sản,2024,Healthy,0.75,FMC - Thực phẩm Sao Ta
-FPT,FPT Corp,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2020,,,FPT - FPT Corp
-FPT,FPT Corp,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2021,,,FPT - FPT Corp
-FPT,FPT Corp,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2022,,,FPT - FPT Corp
-FPT,FPT Corp,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2023,,,FPT - FPT Corp
-FPT,FPT Corp,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2024,,,FPT - FPT Corp
+FPT,FPT Corp,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2020,At_Risk,0.25,FPT - FPT Corp
+FPT,FPT Corp,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2021,At_Risk,0.25,FPT - FPT Corp
+FPT,FPT Corp,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2022,Stable,0.5,FPT - FPT Corp
+FPT,FPT Corp,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2023,At_Risk,0.25,FPT - FPT Corp
+FPT,FPT Corp,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2024,Healthy,0.75,FPT - FPT Corp
 FRT,Bán lẻ FPT,Dịch vụ Tiêu dùng,Bán lẻ,Bán lẻ,Phân phối hàng chuyên dụng,2020,At_Risk,0.25,FRT - Bán lẻ FPT
 FRT,Bán lẻ FPT,Dịch vụ Tiêu dùng,Bán lẻ,Bán lẻ,Phân phối hàng chuyên dụng,2021,Healthy,0.75,FRT - Bán lẻ FPT
 FRT,Bán lẻ FPT,Dịch vụ Tiêu dùng,Bán lẻ,Bán lẻ,Phân phối hàng chuyên dụng,2022,At_Risk,0.25,FRT - Bán lẻ FPT
@@ -645,11 +647,11 @@ HVX,Xi măng Vicem Hải Vân,Công nghiệp,Xây dựng và Vật liệu,Xây d
 HVX,Xi măng Vicem Hải Vân,Công nghiệp,Xây dựng và Vật liệu,Xây dựng và Vật liệu,Vật liệu xây dựng & Nội thất,2022,Stable,0.5,HVX - Xi măng Vicem Hải Vân
 HVX,Xi măng Vicem Hải Vân,Công nghiệp,Xây dựng và Vật liệu,Xây dựng và Vật liệu,Vật liệu xây dựng & Nội thất,2023,At_Risk,0.25,HVX - Xi măng Vicem Hải Vân
 HVX,Xi măng Vicem Hải Vân,Công nghiệp,Xây dựng và Vật liệu,Xây dựng và Vật liệu,Vật liệu xây dựng & Nội thất,2024,At_Risk,0.25,HVX - Xi măng Vicem Hải Vân
-ICT,Viễn thông - Tin học Bưu điện,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2020,,,ICT - Viễn thông - Tin học Bưu điện
-ICT,Viễn thông - Tin học Bưu điện,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2021,,,ICT - Viễn thông - Tin học Bưu điện
-ICT,Viễn thông - Tin học Bưu điện,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2022,,,ICT - Viễn thông - Tin học Bưu điện
-ICT,Viễn thông - Tin học Bưu điện,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2023,,,ICT - Viễn thông - Tin học Bưu điện
-ICT,Viễn thông - Tin học Bưu điện,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2024,,,ICT - Viễn thông - Tin học Bưu điện
+ICT,Viễn thông - Tin học Bưu điện,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2020,At_Risk,0.25,ICT - Viễn thông - Tin học Bưu điện
+ICT,Viễn thông - Tin học Bưu điện,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2021,At_Risk,0.25,ICT - Viễn thông - Tin học Bưu điện
+ICT,Viễn thông - Tin học Bưu điện,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2022,At_Risk,0.25,ICT - Viễn thông - Tin học Bưu điện
+ICT,Viễn thông - Tin học Bưu điện,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2023,At_Risk,0.25,ICT - Viễn thông - Tin học Bưu điện
+ICT,Viễn thông - Tin học Bưu điện,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2024,Stable,0.5,ICT - Viễn thông - Tin học Bưu điện
 IDI,Đầu tư và PT Đa Quốc Gia,Hàng Tiêu dùng,Thực phẩm và đồ uống,Sản xuất thực phẩm,Nuôi trồng nông & hải sản,2020,High_Risk,0.0,IDI - Đầu tư và PT Đa Quốc Gia
 IDI,Đầu tư và PT Đa Quốc Gia,Hàng Tiêu dùng,Thực phẩm và đồ uống,Sản xuất thực phẩm,Nuôi trồng nông & hải sản,2021,High_Risk,0.0,IDI - Đầu tư và PT Đa Quốc Gia
 IDI,Đầu tư và PT Đa Quốc Gia,Hàng Tiêu dùng,Thực phẩm và đồ uống,Sản xuất thực phẩm,Nuôi trồng nông & hải sản,2022,At_Risk,0.25,IDI - Đầu tư và PT Đa Quốc Gia
@@ -665,11 +667,11 @@ IMP,IMEXPHARM,Dược phẩm và Y tế,Y tế,Dược phẩm,Dược phẩm,202
 IMP,IMEXPHARM,Dược phẩm và Y tế,Y tế,Dược phẩm,Dược phẩm,2022,Stable,0.5,IMP - IMEXPHARM
 IMP,IMEXPHARM,Dược phẩm và Y tế,Y tế,Dược phẩm,Dược phẩm,2023,Healthy,0.75,IMP - IMEXPHARM
 IMP,IMEXPHARM,Dược phẩm và Y tế,Y tế,Dược phẩm,Dược phẩm,2024,Healthy,1.0,IMP - IMEXPHARM
-ITD,Công nghệ Tiên Phong,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Phần cứng,2020,,,ITD - Công nghệ Tiên Phong
-ITD,Công nghệ Tiên Phong,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Phần cứng,2021,,,ITD - Công nghệ Tiên Phong
-ITD,Công nghệ Tiên Phong,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Phần cứng,2022,,,ITD - Công nghệ Tiên Phong
-ITD,Công nghệ Tiên Phong,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2023,,,ITD - Công nghệ Tiên Phong
-ITD,Công nghệ Tiên Phong,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2024,,,ITD - Công nghệ Tiên Phong
+ITD,Công nghệ Tiên Phong,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Phần cứng,2020,Healthy,1.0,ITD - Công nghệ Tiên Phong
+ITD,Công nghệ Tiên Phong,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Phần cứng,2021,Stable,0.5,ITD - Công nghệ Tiên Phong
+ITD,Công nghệ Tiên Phong,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Phần cứng,2022,Stable,0.5,ITD - Công nghệ Tiên Phong
+ITD,Công nghệ Tiên Phong,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2023,At_Risk,0.25,ITD - Công nghệ Tiên Phong
+ITD,Công nghệ Tiên Phong,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Phần mềm,2024,Stable,0.5,ITD - Công nghệ Tiên Phong
 JVC,Đầu tư và Phát triển Y tế Việt Nhật,Dược phẩm và Y tế,Y tế,Thiết bị và Dịch vụ Y tế,Thiết bị y tế,2020,At_Risk,0.25,JVC - Đầu tư và Phát triển Y tế Việt Nhật
 JVC,Đầu tư và Phát triển Y tế Việt Nhật,Dược phẩm và Y tế,Y tế,Thiết bị và Dịch vụ Y tế,Thiết bị y tế,2021,At_Risk,0.25,JVC - Đầu tư và Phát triển Y tế Việt Nhật
 JVC,Đầu tư và Phát triển Y tế Việt Nhật,Dược phẩm và Y tế,Y tế,Thiết bị và Dịch vụ Y tế,Thiết bị y tế,2022,Stable,0.5,JVC - Đầu tư và Phát triển Y tế Việt Nhật
@@ -900,6 +902,11 @@ PLP,SX và CN Nhựa Pha Lê,Nguyên vật liệu,Hóa chất,Hóa chất,"Nhự
 PLP,SX và CN Nhựa Pha Lê,Nguyên vật liệu,Hóa chất,Hóa chất,"Nhựa, cao su & sợi",2022,High_Risk,0.0,PLP - SX và CN Nhựa Pha Lê
 PLP,SX và CN Nhựa Pha Lê,Nguyên vật liệu,Hóa chất,Hóa chất,"Nhựa, cao su & sợi",2023,High_Risk,0.0,PLP - SX và CN Nhựa Pha Lê
 PLP,SX và CN Nhựa Pha Lê,Nguyên vật liệu,Hóa chất,Hóa chất,"Nhựa, cao su & sợi",2024,High_Risk,0.0,PLP - SX và CN Nhựa Pha Lê
+PLX,Petrolimex,Dầu khí,Dầu khí,Sản xuất Dầu khí,Sản xuất và Khai thác dầu khí,2020,At_Risk,0.25,PLX - Petrolimex
+PLX,Petrolimex,Dầu khí,Dầu khí,Sản xuất Dầu khí,Sản xuất và Khai thác dầu khí,2021,Stable,0.5,PLX - Petrolimex
+PLX,Petrolimex,Dầu khí,Dầu khí,Sản xuất Dầu khí,Sản xuất và Khai thác dầu khí,2022,Stable,0.5,PLX - Petrolimex
+PLX,Petrolimex,Dầu khí,Dầu khí,Sản xuất Dầu khí,Sản xuất và Khai thác dầu khí,2023,Stable,0.5,PLX - Petrolimex
+PLX,Petrolimex,Dầu khí,Dầu khí,Sản xuất Dầu khí,Sản xuất và Khai thác dầu khí,2024,Stable,0.5,PLX - Petrolimex
 PMG,ĐT và SX Petro Miền Trung,Tiện ích Cộng đồng,"Điện, nước & xăng dầu khí đốt",Nước & Khí đốt,Phân phối xăng dầu & khí đốt,2020,At_Risk,0.25,PMG - ĐT và SX Petro Miền Trung
 PMG,ĐT và SX Petro Miền Trung,Tiện ích Cộng đồng,"Điện, nước & xăng dầu khí đốt",Nước & Khí đốt,Phân phối xăng dầu & khí đốt,2021,High_Risk,0.0,PMG - ĐT và SX Petro Miền Trung
 PMG,ĐT và SX Petro Miền Trung,Tiện ích Cộng đồng,"Điện, nước & xăng dầu khí đốt",Nước & Khí đốt,Phân phối xăng dầu & khí đốt,2022,Stable,0.5,PMG - ĐT và SX Petro Miền Trung
@@ -943,6 +950,11 @@ PTC,Đầu tư ICAPITAL,Công nghiệp,Xây dựng và Vật liệu,Xây dựng 
 PTC,Đầu tư ICAPITAL,Công nghiệp,Xây dựng và Vật liệu,Xây dựng và Vật liệu,Xây dựng,2022,High_Risk,0.0,PTC - Đầu tư ICAPITAL
 PTC,Đầu tư ICAPITAL,Công nghiệp,Xây dựng và Vật liệu,Xây dựng và Vật liệu,Xây dựng,2023,High_Risk,0.0,PTC - Đầu tư ICAPITAL
 PTC,Đầu tư ICAPITAL,Công nghiệp,Xây dựng và Vật liệu,Xây dựng và Vật liệu,Xây dựng,2024,Stable,0.5,PTC - Đầu tư ICAPITAL
+PVD,Khoan Dầu khí PVDrilling,Dầu khí,Dầu khí,"Thiết bị, Dịch vụ và Phân phối Dầu khí",Thiết bị và Dịch vụ Dầu khí,2020,Healthy,0.75,PVD - Khoan Dầu khí PVDrilling
+PVD,Khoan Dầu khí PVDrilling,Dầu khí,Dầu khí,"Thiết bị, Dịch vụ và Phân phối Dầu khí",Thiết bị và Dịch vụ Dầu khí,2021,Stable,0.5,PVD - Khoan Dầu khí PVDrilling
+PVD,Khoan Dầu khí PVDrilling,Dầu khí,Dầu khí,"Thiết bị, Dịch vụ và Phân phối Dầu khí",Thiết bị và Dịch vụ Dầu khí,2022,Stable,0.5,PVD - Khoan Dầu khí PVDrilling
+PVD,Khoan Dầu khí PVDrilling,Dầu khí,Dầu khí,"Thiết bị, Dịch vụ và Phân phối Dầu khí",Thiết bị và Dịch vụ Dầu khí,2023,Stable,0.5,PVD - Khoan Dầu khí PVDrilling
+PVD,Khoan Dầu khí PVDrilling,Dầu khí,Dầu khí,"Thiết bị, Dịch vụ và Phân phối Dầu khí",Thiết bị và Dịch vụ Dầu khí,2024,Healthy,0.75,PVD - Khoan Dầu khí PVDrilling
 PVP,Vận tải Dầu khí Thái Bình Dương,Công nghiệp,Hàng & Dịch vụ Công nghiệp,Vận tải,Dịch vụ vận tải,2020,Stable,0.5,PVP - Vận tải Dầu khí Thái Bình Dương
 PVP,Vận tải Dầu khí Thái Bình Dương,Công nghiệp,Hàng & Dịch vụ Công nghiệp,Vận tải,Dịch vụ vận tải,2021,Stable,0.5,PVP - Vận tải Dầu khí Thái Bình Dương
 PVP,Vận tải Dầu khí Thái Bình Dương,Công nghiệp,Hàng & Dịch vụ Công nghiệp,Vận tải,Dịch vụ vận tải,2022,Stable,0.5,PVP - Vận tải Dầu khí Thái Bình Dương
@@ -984,11 +996,11 @@ SAB,SABECO,Hàng Tiêu dùng,Thực phẩm và đồ uống,Bia và đồ uống
 SAB,SABECO,Hàng Tiêu dùng,Thực phẩm và đồ uống,Bia và đồ uống,Sản xuất bia,2022,Healthy,0.75,SAB - SABECO
 SAB,SABECO,Hàng Tiêu dùng,Thực phẩm và đồ uống,Bia và đồ uống,Sản xuất bia,2023,Healthy,0.75,SAB - SABECO
 SAB,SABECO,Hàng Tiêu dùng,Thực phẩm và đồ uống,Bia và đồ uống,Sản xuất bia,2024,Healthy,0.75,SAB - SABECO
-SAM,SAM Holdings,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2020,,,SAM - SAM Holdings
-SAM,SAM Holdings,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2021,,,SAM - SAM Holdings
-SAM,SAM Holdings,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2022,,,SAM - SAM Holdings
-SAM,SAM Holdings,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2023,,,SAM - SAM Holdings
-SAM,SAM Holdings,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2024,,,SAM - SAM Holdings
+SAM,SAM Holdings,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2020,At_Risk,0.25,SAM - SAM Holdings
+SAM,SAM Holdings,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2021,At_Risk,0.25,SAM - SAM Holdings
+SAM,SAM Holdings,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2022,At_Risk,0.25,SAM - SAM Holdings
+SAM,SAM Holdings,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2023,At_Risk,0.25,SAM - SAM Holdings
+SAM,SAM Holdings,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị viễn thông,2024,Stable,0.5,SAM - SAM Holdings
 SAV,Savimex,Nguyên vật liệu,Tài nguyên Cơ bản,Lâm nghiệp và Giấy,Lâm sản và Chế biến gỗ,2020,Healthy,0.75,SAV - Savimex
 SAV,Savimex,Nguyên vật liệu,Tài nguyên Cơ bản,Lâm nghiệp và Giấy,Lâm sản và Chế biến gỗ,2021,Stable,0.5,SAV - Savimex
 SAV,Savimex,Nguyên vật liệu,Tài nguyên Cơ bản,Lâm nghiệp và Giấy,Lâm sản và Chế biến gỗ,2022,At_Risk,0.25,SAV - Savimex
@@ -1044,11 +1056,11 @@ SGN,Phục vụ mặt đất Sài Gòn,Công nghiệp,Hàng & Dịch vụ Công 
 SGN,Phục vụ mặt đất Sài Gòn,Công nghiệp,Hàng & Dịch vụ Công nghiệp,Vận tải,"Kho bãi, hậu cần và bảo dưỡng",2022,Healthy,1.0,SGN - Phục vụ mặt đất Sài Gòn
 SGN,Phục vụ mặt đất Sài Gòn,Công nghiệp,Hàng & Dịch vụ Công nghiệp,Vận tải,"Kho bãi, hậu cần và bảo dưỡng",2023,Healthy,0.75,SGN - Phục vụ mặt đất Sài Gòn
 SGN,Phục vụ mặt đất Sài Gòn,Công nghiệp,Hàng & Dịch vụ Công nghiệp,Vận tải,"Kho bãi, hậu cần và bảo dưỡng",2024,Healthy,1.0,SGN - Phục vụ mặt đất Sài Gòn
-SGT,Sài Gòn Telecom,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Internet,2020,,,SGT - Sài Gòn Telecom
-SGT,Sài Gòn Telecom,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Internet,2021,,,SGT - Sài Gòn Telecom
-SGT,Sài Gòn Telecom,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Internet,2022,,,SGT - Sài Gòn Telecom
-SGT,Sài Gòn Telecom,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Internet,2023,,,SGT - Sài Gòn Telecom
-SGT,Sài Gòn Telecom,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Internet,2024,,,SGT - Sài Gòn Telecom
+SGT,Sài Gòn Telecom,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Internet,2020,High_Risk,0.0,SGT - Sài Gòn Telecom
+SGT,Sài Gòn Telecom,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Internet,2021,High_Risk,0.0,SGT - Sài Gòn Telecom
+SGT,Sài Gòn Telecom,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Internet,2022,High_Risk,0.0,SGT - Sài Gòn Telecom
+SGT,Sài Gòn Telecom,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Internet,2023,At_Risk,0.25,SGT - Sài Gòn Telecom
+SGT,Sài Gòn Telecom,Công nghệ Thông tin,Công nghệ Thông tin,Phần mềm & Dịch vụ Máy tính,Internet,2024,High_Risk,0.0,SGT - Sài Gòn Telecom
 SHA,Sơn Hà Sài Gòn,Nguyên vật liệu,Tài nguyên Cơ bản,Kim loại,Thép và sản phẩm thép,2020,High_Risk,0.0,SHA - Sơn Hà Sài Gòn
 SHA,Sơn Hà Sài Gòn,Nguyên vật liệu,Tài nguyên Cơ bản,Kim loại,Thép và sản phẩm thép,2021,High_Risk,0.0,SHA - Sơn Hà Sài Gòn
 SHA,Sơn Hà Sài Gòn,Nguyên vật liệu,Tài nguyên Cơ bản,Kim loại,Thép và sản phẩm thép,2022,At_Risk,0.25,SHA - Sơn Hà Sài Gòn
@@ -1112,11 +1124,11 @@ SSC,Giống cây trồng Miền Nam,Hàng Tiêu dùng,Thực phẩm và đồ u�
 SSC,Giống cây trồng Miền Nam,Hàng Tiêu dùng,Thực phẩm và đồ uống,Sản xuất thực phẩm,Nuôi trồng nông & hải sản,2022,Stable,0.5,SSC - Giống cây trồng Miền Nam
 SSC,Giống cây trồng Miền Nam,Hàng Tiêu dùng,Thực phẩm và đồ uống,Sản xuất thực phẩm,Nuôi trồng nông & hải sản,2023,Stable,0.5,SSC - Giống cây trồng Miền Nam
 SSC,Giống cây trồng Miền Nam,Hàng Tiêu dùng,Thực phẩm và đồ uống,Sản xuất thực phẩm,Nuôi trồng nông & hải sản,2024,At_Risk,0.25,SSC - Giống cây trồng Miền Nam
-ST8,Đầu tư Phát triển ST8,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị văn phòng,2020,,,ST8 - Đầu tư Phát triển ST8
-ST8,Đầu tư Phát triển ST8,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị văn phòng,2021,,,ST8 - Đầu tư Phát triển ST8
-ST8,Đầu tư Phát triển ST8,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị văn phòng,2022,,,ST8 - Đầu tư Phát triển ST8
-ST8,Tập đoàn ST8,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị văn phòng,2023,,,ST8 - Tập đoàn ST8
-ST8,Tập đoàn ST8,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị văn phòng,2024,,,ST8 - Tập đoàn ST8
+ST8,Đầu tư Phát triển ST8,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị văn phòng,2020,Healthy,0.75,ST8 - Đầu tư Phát triển ST8
+ST8,Đầu tư Phát triển ST8,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị văn phòng,2021,Healthy,0.75,ST8 - Đầu tư Phát triển ST8
+ST8,Đầu tư Phát triển ST8,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị văn phòng,2022,Healthy,1.0,ST8 - Đầu tư Phát triển ST8
+ST8,Tập đoàn ST8,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị văn phòng,2023,Stable,0.6666666666666666,ST8 - Tập đoàn ST8
+ST8,Tập đoàn ST8,Công nghệ Thông tin,Công nghệ Thông tin,Thiết bị và Phần cứng,Thiết bị văn phòng,2024,Healthy,1.0,ST8 - Tập đoàn ST8
 STG,Kho Vận Miền Nam,Công nghiệp,Hàng & Dịch vụ Công nghiệp,Vận tải,"Kho bãi, hậu cần và bảo dưỡng",2020,Stable,0.5,STG - Kho Vận Miền Nam
 STG,Kho Vận Miền Nam,Công nghiệp,Hàng & Dịch vụ Công nghiệp,Vận tải,"Kho bãi, hậu cần và bảo dưỡng",2021,Healthy,0.75,STG - Kho Vận Miền Nam
 STG,Kho Vận Miền Nam,Công nghiệp,Hàng & Dịch vụ Công nghiệp,Vận tải,"Kho bãi, hậu cần và bảo dưỡng",2022,Healthy,0.75,STG - Kho Vận Miền Nam

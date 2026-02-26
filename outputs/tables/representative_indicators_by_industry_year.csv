@@ -19,6 +19,26 @@ Công nghiệp,2024,Efficiency,Asset_Turnover
 Công nghiệp,2024,Leverage,Debt_Equity
 Công nghiệp,2024,Liquidity,Quick_Ratio
 Công nghiệp,2024,Profitability,ROE
+Công nghệ Thông tin,2020,Efficiency,Asset_Turnover
+Công nghệ Thông tin,2020,Leverage,Debt_Equity
+Công nghệ Thông tin,2020,Liquidity,Quick_Ratio
+Công nghệ Thông tin,2020,Profitability,ROE
+Công nghệ Thông tin,2021,Efficiency,Asset_Turnover
+Công nghệ Thông tin,2021,Leverage,Debt_Equity
+Công nghệ Thông tin,2021,Liquidity,Current_Ratio
+Công nghệ Thông tin,2021,Profitability,ROE
+Công nghệ Thông tin,2022,Efficiency,Asset_Turnover
+Công nghệ Thông tin,2022,Leverage,Debt_Equity
+Công nghệ Thông tin,2022,Liquidity,Quick_Ratio
+Công nghệ Thông tin,2022,Profitability,ROS
+Công nghệ Thông tin,2023,Efficiency,Fixed_Asset_Turnover
+Công nghệ Thông tin,2023,Leverage,Debt_Equity
+Công nghệ Thông tin,2023,Liquidity,Quick_Ratio
+Công nghệ Thông tin,2023,Profitability,ROA
+Công nghệ Thông tin,2024,Efficiency,Asset_Turnover
+Công nghệ Thông tin,2024,Leverage,Debt_Equity
+Công nghệ Thông tin,2024,Liquidity,Quick_Ratio
+Công nghệ Thông tin,2024,Profitability,ROA
 Dược phẩm và Y tế,2020,Efficiency,Asset_Turnover
 Dược phẩm và Y tế,2020,Leverage,Debt_Equity
 Dược phẩm và Y tế,2020,Liquidity,Quick_Ratio
@@ -39,6 +59,26 @@ Dược phẩm và Y tế,2024,Efficiency,Asset_Turnover
 Dược phẩm và Y tế,2024,Leverage,Debt_Equity
 Dược phẩm và Y tế,2024,Liquidity,Current_Ratio
 Dược phẩm và Y tế,2024,Profitability,ROA
+Dầu khí,2020,Efficiency,Asset_Turnover
+Dầu khí,2020,Leverage,Debt_Equity
+Dầu khí,2020,Liquidity,Current_Ratio
+Dầu khí,2020,Profitability,ROS
+Dầu khí,2021,Efficiency,Asset_Turnover
+Dầu khí,2021,Leverage,Debt_Equity
+Dầu khí,2021,Liquidity,Cash_Ratio
+Dầu khí,2021,Profitability,ROA
+Dầu khí,2022,Efficiency,Asset_Turnover
+Dầu khí,2022,Leverage,Debt_Equity
+Dầu khí,2022,Liquidity,Current_Ratio
+Dầu khí,2022,Profitability,ROA
+Dầu khí,2023,Efficiency,Asset_Turnover
+Dầu khí,2023,Leverage,Debt_Equity
+Dầu khí,2023,Liquidity,Quick_Ratio
+Dầu khí,2023,Profitability,ROE
+Dầu khí,2024,Efficiency,Asset_Turnover
+Dầu khí,2024,Leverage,Debt_Equity
+Dầu khí,2024,Liquidity,Current_Ratio
+Dầu khí,2024,Profitability,ROA
 Dịch vụ Tiêu dùng,2020,Efficiency,Fixed_Asset_Turnover
 Dịch vụ Tiêu dùng,2020,Leverage,Debt_Equity
 Dịch vụ Tiêu dùng,2020,Liquidity,Quick_Ratio
