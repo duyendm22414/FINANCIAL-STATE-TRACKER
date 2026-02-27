@@ -78,7 +78,7 @@ with left:
             r["Nhóm"] = r["Nhóm chỉ số"].map(lambda x: GROUP_VI.get(str(x), str(x)))
             show_r = r[["Nhóm", "Chỉ số đại diện (theo PCA)"]].sort_values("Nhóm")
             st.dataframe(show_r, use_container_width=True, hide_index=True)
-            st.caption("Chỉ số đại diện được chọn theo PCA để đại diện cho từng nhóm chỉ số trong ngành–năm.")
+            st.caption("*Chỉ số đại diện được chọn theo PCA để đại diện cho từng nhóm chỉ số đại diện khả năng thanh khoản, đòn bẩy tài chính, hiệu quả hoạt động và khả năng sinh lời của doanh nghiệp trong cùng ngành.*")
 
 # 2) Benchmarks
 with right:
@@ -109,7 +109,7 @@ with right:
 
             show_b = b[show_cols].sort_values(["Nhóm", "Indicator_Name"])
             st.dataframe(show_b, use_container_width=True, hide_index=True, height=430)
-            st.caption("Benchmark_Mean là trung bình ngành–năm, dùng làm chuẩn so sánh tương đối khi đánh giá đạt/không đạt.")
+            st.caption("*Benchmark_Mean là mức trung bình ngành, dùng làm chuẩn so sánh tương đối khi đánh giá đạt/không đạt.*")
 
 st.write("")
 
