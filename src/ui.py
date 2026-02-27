@@ -128,17 +128,41 @@ def kpi(title: str, value: str, subtitle: str = "", tone: str = "neutral"):
 
 
 # =========================
-# Sidebar filter (giữ nếu bạn đang dùng)
+# Sidebar filter
 # =========================
 def sidebar_filters(df):
+    import streamlit as st
     from src.schema import COL_YEAR, COL_INDUSTRY, COL_TICKER
 
-    years = sorted(df[COL_YEAR].dropna().unique())
-    industries = sorted(df[COL_INDUSTRY].dropna().unique())
-    tickers = sorted(df[COL_TICKER].dropna().unique())
+    # Chuẩn hóa nhẹ để tránh lệch do khoảng trắng
+    _df = df.copy()
+    _df[COL_INDUSTRY] = _df[COL_INDUSTRY].astype(str).str.strip()
+    _df[COL_TICKER] = _df[COL_TICKER].astype(str).str.strip()
 
-    year = st.sidebar.selectbox("Năm", years)
-    industry = st.sidebar.selectbox("Ngành ICB - cấp 1", industries)
-    ticker = st.sidebar.selectbox("Mã doanh nghiệp", tickers)
+    years = sorted(_df[COL_YEAR].dropna().unique().tolist())
+    industries = sorted(_df[COL_INDUSTRY].dropna().unique().tolist())
+
+    # Keys để giữ state ổn định và reset khi cần
+    key_year = "flt_year"
+    key_ind = "flt_industry"
+    key_tic = "flt_ticker"
+
+    year = st.sidebar.selectbox("Năm", years, key=key_year)
+    industry = st.sidebar.selectbox("Ngành ICB - cấp 1", industries, key=key_ind)
+
+    # Lọc ticker theo năm + ngành
+    scope = _df[(_df[COL_YEAR] == year) & (_df[COL_INDUSTRY] == industry)]
+    tickers = sorted(scope[COL_TICKER].dropna().unique().tolist())
+
+    # Fallback (phòng trường hợp dữ liệu rỗng do mismatch)
+    if not tickers:
+        tickers = sorted(_df[COL_TICKER].dropna().unique().tolist())
+
+    # Reset ticker nếu ticker hiện tại không còn thuộc danh sách mới
+    cur = st.session_state.get(key_tic)
+    if cur not in tickers:
+        st.session_state[key_tic] = tickers[0] if tickers else None
+
+    ticker = st.sidebar.selectbox("Mã doanh nghiệp", tickers, key=key_tic)
 
     return year, industry, ticker
