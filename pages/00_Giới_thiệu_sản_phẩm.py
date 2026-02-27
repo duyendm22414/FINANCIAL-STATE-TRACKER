@@ -19,7 +19,7 @@ st.markdown(
 - **Hiểu tiêu chuẩn phân loại:** xem **chỉ số đại diện** cho từng nhóm (theo ngành) và **chuẩn trung bình ngành** (Benchmark) để biết doanh nghiệp được đánh giá dựa trên tiêu chuẩn nào.
 - **Nhận tín hiệu thay đổi trạng thái tài chính:** xác định ngành hoặc doanh nghiệp có dấu hiệu không ổn định để ưu tiên giám sát và phân tích sâu.
 
-**Nguyên tắc đánh giá (*Nghiên cứu cá nhân*)**
+**Nguyên tắc đánh giá**
 - Doanh nghiệp được so sánh với **chuẩn trung bình ngành**.
 - Thanh khoản / Hiệu quả hoạt động / Khả năng sinh lời: **đạt** nếu chỉ số của doanh nghiệp cao hơn chuẩn trung bình ngành.  
 - Đòn bẩy: **đạt** nếu chỉ số của doanh nghiệp thấp hơn chuẩn trung bình ngành.  
