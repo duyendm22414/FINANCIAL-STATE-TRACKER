@@ -9,7 +9,7 @@ from src.schema import COL_YEAR, COL_INDUSTRY, COL_TICKER, COL_NAME
 # =========================
 # Page setup
 # =========================
-st.set_page_config(page_title="Tổng quan theo ngành", layout="wide")
+st.set_page_config(page_title="Tổng quan ngành", layout="wide")
 inject_css()
 
 data = load_data()
@@ -22,7 +22,7 @@ st.markdown(
     """
     <div class="hero">
       <h1>Tổng quan theo ngành</h1>
-      <p>Xem phân bố trạng thái theo ngành–năm và tín hiệu thay đổi trạng thái tài chính của doanh nghiệp.</p>
+      <p>Xem phân bố trạng thái theo ngành và thay đổi trạng thái tài chính của doanh nghiệp.</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -60,15 +60,15 @@ c1, c2, c3, c4 = st.columns([1.1, 1.0, 1.0, 1.0])
 with c1:
     kpi("Số doanh nghiệp", f"{df[COL_TICKER].nunique():,}", f"{industry} • {year}", tone="info")
 with c2:
-    kpi("Tỷ trọng rủi ro", f"{risk:.1%}", "High Risk + At Risk", tone=risk_tone)
+    kpi("Tỷ trọng rủi ro", f"{risk:.1%}", "Rủi ro cao & Nguy cơ rủi ro", tone=risk_tone)
 with c3:
-    kpi("Tỷ trọng khỏe mạnh", f"{healthy:.1%}", "Healthy", tone=healthy_tone)
+    kpi("Tỷ trọng khỏe mạnh", f"{healthy:.1%}", "Khỏe ", tone=healthy_tone)
 with c4:
     if pass_col in df.columns:
         pass_med = pd.to_numeric(df[pass_col], errors="coerce").median()
-        kpi("Pass Ratio (Median)", "—" if pd.isna(pass_med) else f"{pass_med:.2f}", "Trung vị ngành–năm", tone="neutral")
+        kpi("Tỷ lệ đạt chuẩn", "-" if pd.isna(pass_med) else f"{pass_med:.2f}", "Trung bình ngành", tone="neutral")
     else:
-        kpi("Pass Ratio (Median)", "—", "Không có cột Pass_Ratio", tone="neutral")
+        kpi("Tỷ lệ đạt chuẩn", "-", "Không có tỷ lệ đạt chuẩn", tone="neutral")
 
 st.write("")
 
