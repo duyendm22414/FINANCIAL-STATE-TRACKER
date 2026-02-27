@@ -22,7 +22,7 @@ st.markdown(
     """
     <div class="hero">
       <h1>Tổng quan ngành</h1>
-      <p>Xem phân bố trạng thái ngành và thay đổi trạng thái tài chính của doanh nghiệp.</p>
+      <p>Xem phân bố ngành và thay đổi trạng thái tài chính của doanh nghiệp.</p>
     </div>
     """,
     unsafe_allow_html=True,
