@@ -9,7 +9,7 @@ from src.schema import COL_YEAR, COL_INDUSTRY, COL_TICKER, COL_NAME
 # =========================
 # Page setup
 # =========================
-st.set_page_config(page_title="Tổng quan ngành", layout="wide")
+st.set_page_config(page_title="Tổng quan", layout="wide")
 inject_css()
 
 data = load_data()
@@ -21,7 +21,7 @@ labeled = data["Nguyên tắc phân loại"]
 st.markdown(
     """
     <div class="hero">
-      <h1>Tổng quan ngành</h1>
+      <h1>Tổng quan</h1>
       <p>Xem phân bố ngành và thay đổi trạng thái tài chính của doanh nghiệp.</p>
     </div>
     """,
@@ -104,7 +104,7 @@ with left:
         hide_index=True,
     )
 
-    st.caption("Số lượng tính theo số dòng quan sát trong ngành-năm (không phải unique ticker nếu dữ liệu có lặp).")
+    st.caption("Số lượng tính theo số dòng dữ liệu quan sát trong ngành-năm *(chưa lọc theo công ty)*.")
     st.markdown("</div>", unsafe_allow_html=True)
 
 # ---------- RIGHT: Warning + Watchlist ----------
@@ -146,5 +146,5 @@ with right:
 
         st.dataframe(show, use_container_width=True, hide_index=True, height=420)
 
-        st.caption("Ưu tiên High Risk trước, sau đó theo Pass Ratio thấp hơn trước (nếu có).")
+        st.caption("Ưu tiên *Rủi ro cao* trước, sau đó theo *Tỷ lệ đạt chuẩn* thấp hơn trước (nếu có).")
         st.markdown("</div>", unsafe_allow_html=True)
