@@ -21,8 +21,8 @@ labeled = data["Nguyên tắc phân loại"]
 st.markdown(
     """
     <div class="hero">
-      <h1>Tổng quan theo ngành</h1>
-      <p>Xem phân bố trạng thái theo ngành và thay đổi trạng thái tài chính của doanh nghiệp.</p>
+      <h1>Tổng quan ngành</h1>
+      <p>Xem phân bố trạng thái ngành và thay đổi trạng thái tài chính của doanh nghiệp.</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -40,7 +40,7 @@ year, industry, _ = sidebar_filters(labeled)
 
 df = labeled[(labeled[COL_YEAR] == year) & (labeled[COL_INDUSTRY] == industry)].copy()
 if df.empty:
-    st.info("Không có dữ liệu cho năm/ngành đã chọn.")
+    st.info("Không có dữ liệu cho bộ lọc đã chọn.")
     st.stop()
 
 # =========================
@@ -62,7 +62,7 @@ with c1:
 with c2:
     kpi("Tỷ trọng rủi ro", f"{risk:.1%}", "Rủi ro cao & Nguy cơ rủi ro", tone=risk_tone)
 with c3:
-    kpi("Tỷ trọng khỏe mạnh", f"{healthy:.1%}", "Khỏe ", tone=healthy_tone)
+    kpi("Tỷ trọng khỏe mạnh", f"{healthy:.1%}", "Khỏe mạnh ", tone=healthy_tone)
 with c4:
     if pass_col in df.columns:
         pass_med = pd.to_numeric(df[pass_col], errors="coerce").median()
@@ -104,7 +104,7 @@ with left:
         hide_index=True,
     )
 
-    st.caption("Số lượng tính theo số dòng quan sát trong ngành–năm (không phải unique ticker nếu dữ liệu có lặp).")
+    st.caption("Số lượng tính theo số dòng quan sát trong ngành-năm (không phải unique ticker nếu dữ liệu có lặp).")
     st.markdown("</div>", unsafe_allow_html=True)
 
 # ---------- RIGHT: Warning + Watchlist ----------
@@ -122,7 +122,7 @@ with right:
     watch = df[df[state_col].astype(str).isin(["High_Risk", "At_Risk"])].copy()
 
     if watch.empty:
-        st.info("Không có doanh nghiệp thuộc nhóm cần theo dõi trong ngành–năm này.")
+        st.info("Không có doanh nghiệp thuộc nhóm cần theo dõi trong ngành-năm này.")
         st.markdown("</div>", unsafe_allow_html=True)
     else:
         watch["Trạng thái"] = watch[state_col].astype(str).map(state_vi)
