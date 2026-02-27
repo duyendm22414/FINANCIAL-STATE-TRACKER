@@ -61,7 +61,10 @@ left, right = st.columns([1.0, 1.2])
 # ---------- LEFT: Representative indicators ----------
 with left:
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.subheader("1) Chỉ số tài chính đại diện (PCA)")
+    st.markdown(
+    '<div class="section-title"><span class="section-number">1)</span> Chỉ số tài chính đại diện (PCA)</div>',
+    unsafe_allow_html=True,
+    )
 
     r = (
         rep[(rep["Năm"] == year) & (rep["Ngành ICB - cấp 1"] == industry)].copy()
@@ -70,7 +73,7 @@ with left:
     )
 
     if r.empty:
-        st.info("Chưa có dữ liệu chỉ số đại diện cho ngành–năm này.")
+        st.info("Chưa có dữ liệu chỉ số đại diện cho yêu cầu này.")
     else:
         r["Nhóm"] = r["Nhóm chỉ số"].map(lambda x: GROUP_VI.get(str(x), str(x)))
         show_r = r[["Nhóm", "Chỉ số đại diện (theo PCA)"]].copy()
@@ -83,7 +86,10 @@ with left:
 # ---------- RIGHT: Benchmarks ----------
 with right:
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.subheader("2) Chuẩn trung bình ngành (Benchmark)")
+    st.markdown(
+    '<div class="section-title"><span class="section-number">2)</span> Chuẩn trung bình ngành (Benchmark)</div>',
+    unsafe_allow_html=True,
+    )
 
     b = (
         bench[(bench["Năm"] == year) & (bench["Ngành ICB - cấp 1"] == industry)].copy()
@@ -116,7 +122,10 @@ st.write("")
 # Section 3: Economic meaning (accordion)
 # =========================
 st.markdown('<div class="card">', unsafe_allow_html=True)
-st.subheader("3) Ý nghĩa kinh tế và tiêu chuẩn đạt chuẩn")
+st.markdown(
+    '<div class="section-title"><span class="section-number">3)</span> Ý nghĩa kinh tế và tiêu chuẩn đạt chuẩn</div>',
+    unsafe_allow_html=True,
+)
 
 st.caption("*Gợi ý diễn giải: mỗi nhóm chỉ số có hướng đánh giá khác nhau (cao hơn tốt hơn hoặc thấp hơn tốt hơn).*")
 
