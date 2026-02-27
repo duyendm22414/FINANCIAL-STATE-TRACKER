@@ -99,7 +99,7 @@ for dim in GROUPS:
     records.append({
         "Nhóm chỉ số": GROUP_VI[dim],
         "Chỉ số đại diện": row.get(rep_col(dim)),
-        "Giá trị DN": row.get(value_col(dim)),
+        "Giá trị của doanh nghiệp": row.get(value_col(dim)),
         "Chuẩn ngành-năm": row.get(bench_col(dim)),
         "Kết quả": "Đạt" if str(row.get(pass_col(dim))) == "1" else ("Không đạt" if str(row.get(pass_col(dim))) == "0" else "Không đủ dữ liệu"),
     })
