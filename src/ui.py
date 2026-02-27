@@ -9,64 +9,101 @@ def inject_css():
     st.markdown(
         """
         <style>
-        /* Base typography spacing */
-        .block-container { padding-top: 2.2rem; padding-bottom: 2.5rem; }
-        h1, h2, h3 { letter-spacing: -0.02em; }
-        p { color: #334155; }
 
-        /* KPI card (refined) */
+        /* ===== Layout ===== */
+        .block-container {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            max-width: 1300px;
+        }
+
+        /* ===== Card ===== */
         .card {
-            border-radius: 16px;
-            padding: 18px 18px;
-            background: #FFFFFF;
-            border: 1px solid #E5E7EB;
-            box-shadow: 0 1px 0 rgba(15, 23, 42, 0.02);
-            min-height: 110px;
+            background: #1E293B;
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 18px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+            transition: 0.2s ease;
         }
-        .card-title {
-            font-size: 12px;
-            font-weight: 700;
-            color: #64748B;
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.45);
+        }
+
+        /* ===== KPI ===== */
+        .kpi {
+            display: grid;
+            gap: 6px;
+        }
+
+        .kpi .title {
+            font-size: 0.9rem;
+            color: #94A3B8;
+            font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 0.08em;
-            margin-bottom: 8px;
+            letter-spacing: 0.5px;
         }
-        .card-value {
-            font-size: 28px;
+
+        .kpi .value {
+            font-size: 1.8rem;
             font-weight: 800;
-            color: #0F172A;
-            line-height: 1.1;
-            margin-bottom: 6px;
-            font-variant-numeric: tabular-nums;
-        }
-        .card-sub {
-            font-size: 13px;
-            color: #64748B;
-            line-height: 1.35;
+            color: #F1F5F9;
         }
 
-        /* Tone borders (subtle) */
-        .tone-danger { border-color: #FECACA; background: #FEF2F2; }
-        .tone-warning { border-color: #FDE68A; background: #FFFBEB; }
-        .tone-success { border-color: #A7F3D0; background: #ECFDF5; }
-        .tone-info { border-color: #BFDBFE; background: #EFF6FF; }
-        .tone-neutral { border-color: #E5E7EB; background: #FFFFFF; }
+        .kpi .sub {
+            font-size: 0.9rem;
+            color: #94A3B8;
+        }
 
-        /* Section divider */
-        .soft-divider { margin: 22px 0 18px; border-top: 1px solid #E5E7EB; }
+        /* ===== KPI Accent Colors ===== */
+        .tone-neutral { border-left: 5px solid #64748B; }
+        .tone-info    { border-left: 5px solid #3B82F6; }
+        .tone-success { border-left: 5px solid #22C55E; }
+        .tone-warning { border-left: 5px solid #F59E0B; }
+        .tone-danger  { border-left: 5px solid #EF4444; }
 
-        /* Pills list */
-        .pill-wrap { display:flex; flex-wrap:wrap; gap:8px; margin-top:6px; }
-        .pill {
-            display:inline-block;
-            padding: 6px 10px;
-            border-radius: 999px;
-            border: 1px solid #E5E7EB;
-            background: #F8FAFC;
-            color: #0F172A;
-            font-size: 12px;
+        /* ===== Hero Section ===== */
+        .hero {
+            background: linear-gradient(135deg, #1E293B, #0F172A);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 22px;
+            padding: 28px;
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            color: #F8FAFC;
+        }
+
+        .hero p {
+            margin-top: 8px;
+            font-size: 1rem;
+            color: #CBD5E1;
+        }
+
+        /* ===== DataFrame ===== */
+        div[data-testid="stDataFrame"] {
+            border-radius: 14px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.06);
+        }
+
+        /* ===== Sidebar ===== */
+        section[data-testid="stSidebar"] {
+            background-color: #0B1220;
+            border-right: 1px solid rgba(255,255,255,0.05);
+        }
+
+        /* ===== Buttons ===== */
+        .stButton>button {
+            border-radius: 12px;
+            padding: 0.5rem 1.2rem;
             font-weight: 600;
         }
+
         </style>
         """,
         unsafe_allow_html=True,
@@ -80,10 +117,10 @@ def kpi(title: str, value: str, subtitle: str = "", tone: str = "neutral"):
     tone_class = f"tone-{tone}" if tone in ["danger","warning","success","info","neutral"] else "tone-neutral"
     st.markdown(
         f"""
-        <div class="card {tone_class}">
-            <div class="card-title">{title}</div>
-            <div class="card-value">{value}</div>
-            <div class="card-sub">{subtitle}</div>
+        <div class="card kpi {tone_class}">
+            <div class="title">{title}</div>
+            <div class="value">{value}</div>
+            <div class="sub">{subtitle}</div>
         </div>
         """,
         unsafe_allow_html=True,
