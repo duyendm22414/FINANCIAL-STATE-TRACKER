@@ -82,5 +82,7 @@ Portfolio-level financial state aggregation
 Author
 
 Dao My Duyen
+
 Fintech Undergraduate
+
 University of Economics and Law
