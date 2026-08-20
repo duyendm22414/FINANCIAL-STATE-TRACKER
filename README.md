@@ -1,6 +1,12 @@
 # FINANCIAL-STATE-TRACKER
 DEVELOPING A FINANCIAL STATE MONITORING FRAMEWORK FOR NON-FINANCIAL FIRMS LISTED ON THE HO CHI MINH CITY STOCK EXCHANGE BASED CORPORATE FINANCIAL HEALTH INDICATORS FOR THE PERIOD 2020-2024
 
+- Analyzed financial statements across Liquidity, Leverage, Efficiency, and Profitability dimensions.
+
+- Applied Python, Excel, PCA, and Scikit-learn for financial data processing, indicator selection, and analysis.
+
+- Developed a financial state classification framework to monitor changes in firms' financial conditions.
+
 DEMO: https://financial-state-tracker-demo.streamlit.app/
 
 **How to Run Locally**
